@@ -35,8 +35,8 @@ const ImgLogo = ({
   <Image
     src={src}
     alt={alt}
-    width={600}
-    height={160}
+    width={1600}
+    height={600}
     priority
     className={`${className} w-auto`}
   />
@@ -44,7 +44,7 @@ const ImgLogo = ({
 
 export const LogoHorizontal: React.FC<Props> = ({ className }) => (
   <ImgLogo
-    src="/logos/BTS_h_white.png"
+    src="/logos/BTS_h_white_green_benjamin.png"
     alt="Benjamin Tax Service"
     className={className}
   />

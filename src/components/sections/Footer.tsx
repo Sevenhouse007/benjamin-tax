@@ -19,8 +19,8 @@ export default function Footer() {
     <footer className="bg-hunter text-cream mt-auto">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 grid md:grid-cols-4 gap-8">
         <div>
-          <LogoWhite className="h-32" />
-          <p className="mt-4 text-[12px] text-cream/70 font-instrument leading-relaxed">
+          <LogoWhite className="w-64 h-auto -ml-4" />
+          <p className="mt-2 text-[12px] text-cream/70 font-instrument leading-relaxed">
             Individual tax preparation for Greater Los Angeles. CTEC & PTIN
             certified. Hablamos Español.
           </p>
