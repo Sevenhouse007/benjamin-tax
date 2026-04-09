@@ -60,27 +60,26 @@ export default function Booking({ defaultOffice }: Props) {
   }
 
   const inputBase =
-    "w-full rounded-lg border border-sage/40 bg-white px-4 py-3 text-[14px] font-instrument text-charcoal placeholder:text-charcoal/40 focus:outline-none focus:ring-2 focus:ring-gold focus:border-gold";
+    "w-full rounded-lg border border-sage/40 bg-white px-3 py-2 text-[13px] font-instrument text-charcoal placeholder:text-charcoal/40 focus:outline-none focus:ring-2 focus:ring-gold focus:border-gold";
 
   return (
-    <section id="book" className="bg-cream py-16">
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <p className="text-gold uppercase tracking-widest text-[12px] font-instrument font-bold text-center">
+    <section id="book" className="bg-cream py-12">
+      <div className="max-w-xl mx-auto px-4 sm:px-6">
+        <p className="text-gold uppercase tracking-widest text-[11px] font-instrument font-bold text-center">
           Book an Appointment
         </p>
-        <h2 className="font-crimson text-[36px] text-hunter font-bold mt-2 text-center">
+        <h2 className="font-crimson text-[28px] text-hunter font-bold mt-1 text-center">
           Request Your Free Appointment
         </h2>
-        <p className="mt-3 text-[14px] text-charcoal/70 font-instrument text-center max-w-xl mx-auto">
-          Fill out the form and the office manager will call you back to
-          confirm a time. No account needed.
+        <p className="mt-2 text-[13px] text-charcoal/70 font-instrument text-center">
+          Fill out the form and the office manager will call you back to confirm. No account needed.
         </p>
 
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="mt-10 bg-white border border-sage/30 rounded-2xl p-7 grid gap-5"
+          className="mt-6 bg-white border border-sage/30 rounded-xl p-5 grid gap-4"
         >
-          <div className="grid md:grid-cols-2 gap-5">
+          <div className="grid md:grid-cols-2 gap-4">
             <Field label="Full Name" error={errors.name?.message}>
               <input {...register("name")} className={inputBase} placeholder="Maria Garcia" />
             </Field>
@@ -106,7 +105,7 @@ export default function Booking({ defaultOffice }: Props) {
             </select>
           </Field>
 
-          <div className="grid md:grid-cols-2 gap-5">
+          <div className="grid md:grid-cols-2 gap-4">
             <Field label="Type of Return" error={errors.returnType?.message}>
               <select {...register("returnType")} className={inputBase} defaultValue="">
                 <option value="" disabled>
