@@ -44,7 +44,7 @@ const ImgLogo = ({
 
 export const LogoHorizontal: React.FC<Props> = ({ className }) => (
   <ImgLogo
-    src="/logos/BTS_h_white_green_benjamin.png"
+    src="/logos/BTS_horizontal_white.png"
     alt="Benjamin Tax Service"
     className={className}
   />
@@ -52,7 +52,7 @@ export const LogoHorizontal: React.FC<Props> = ({ className }) => (
 
 export const LogoHorizontalDark: React.FC<Props> = ({ className }) => (
   <ImgLogo
-    src="/logos/BTS_logo_horizontal_dark.png"
+    src="/logos/BTS_horizontal_dark.png"
     alt="Benjamin Tax Service"
     className={className}
   />
@@ -60,7 +60,7 @@ export const LogoHorizontalDark: React.FC<Props> = ({ className }) => (
 
 export const LogoStacked: React.FC<Props> = ({ className = "h-24" }) => (
   <ImgLogo
-    src="/logos/BTS_logo_stacked_color.png"
+    src="/logos/BTS_stacked_green.png"
     alt="Benjamin Tax Service"
     className={className}
   />
@@ -68,7 +68,7 @@ export const LogoStacked: React.FC<Props> = ({ className = "h-24" }) => (
 
 export const LogoWhite: React.FC<Props> = ({ className }) => (
   <ImgLogo
-    src="/logos/BTS_h_green.png"
+    src="/logos/BTS_horizontal_green.png"
     alt="Benjamin Tax Service"
     className={className}
   />
@@ -76,7 +76,7 @@ export const LogoWhite: React.FC<Props> = ({ className }) => (
 
 export const LogoStackedDark: React.FC<Props> = ({ className = "h-20" }) => (
   <ImgLogo
-    src="/logos/BTS_logo_stacked_dark.png"
+    src="/logos/BTS_stacked_dark.png"
     alt="Benjamin Tax Service"
     className={className}
   />

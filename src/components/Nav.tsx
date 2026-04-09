@@ -34,9 +34,9 @@ export default function Nav() {
     >
       {({ open }) => (
         <>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-28 flex items-center justify-between">
-            <a href="/" aria-label="Benjamin Tax Service home">
-              <LogoHorizontal className="h-24" />
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-32 flex items-center justify-between">
+            <a href="/" aria-label="Benjamin Tax Service home" className="focus:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded">
+              <LogoHorizontal className="h-28" />
             </a>
 
             <div className="hidden lg:flex items-center gap-8">
