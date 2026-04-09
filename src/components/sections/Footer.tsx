@@ -71,7 +71,7 @@ export default function Footer() {
                 {EMAIL}
               </a>
             </li>
-            <li className="text-cream/80">Imperial · MLK · Gage · Compton · Long Beach</li>
+            <li className="text-cream/80">Imperial · MLK · Gage · Long Beach</li>
             <li>
               <a
                 href={process.env.NEXT_PUBLIC_PORTAL_URL || "#"}

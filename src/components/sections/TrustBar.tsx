@@ -5,7 +5,7 @@ import Counter from "../Counter";
 
 const items = [
   { value: 15, suffix: "+", l1: "Years serving", l2: "Los Angeles" },
-  { value: 5, suffix: "", l1: "Locations across", l2: "Greater LA" },
+  { value: 4, suffix: "", l1: "Locations across", l2: "Greater LA" },
   { value: 100, suffix: "%", l1: "Accuracy", l2: "guaranteed" },
   { value: 0, prefix: "$", l1: "Upfront cost", l2: "to get a quote" },
 ];

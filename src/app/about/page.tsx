@@ -49,7 +49,7 @@ export default function AboutPage() {
             Benjamin Tax Service started in 2010 as a single storefront on
             Imperial Highway with one goal: bring honest, expert tax help to a
             community that had been underserved for too long. Word spread fast.
-            Within five years we had three locations; today we operate five
+            Within five years we had three locations; today we operate four
             offices across Greater LA and prepare thousands of returns every
             season.
           </p>

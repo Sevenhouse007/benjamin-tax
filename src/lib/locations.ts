@@ -33,14 +33,6 @@ export const locationList: Location[] = [
     neighborhood: "South LA",
   },
   {
-    slug: "compton",
-    name: "Compton",
-    address: "623 S Long Beach Blvd, Compton, CA 90221",
-    phone: "(323) 982-7929",
-    hours: "Mon–Fri 9am–6pm · Sat 10am–4pm",
-    neighborhood: "Compton",
-  },
-  {
     slug: "long-beach",
     name: "Long Beach",
     address: "1252 Long Beach Blvd, Long Beach, CA 90813",

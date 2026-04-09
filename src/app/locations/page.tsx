@@ -7,7 +7,7 @@ import { PHONE_TEL } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Locations | Benjamin Tax Service",
   description:
-    "Find a Benjamin Tax Service office near you. 5 locations across Greater Los Angeles — Watts, Bell Gardens, Long Beach, and Compton.",
+    "Find a Benjamin Tax Service office near you. 4 locations across Greater Los Angeles — Watts, South LA, Long Beach, and Los Angeles.",
 };
 
 export default function LocationsPage() {
@@ -15,12 +15,12 @@ export default function LocationsPage() {
     <main className="flex-1">
       <PageHeader
         eyebrow="Locations"
-        title="5 Offices Across Greater LA"
+        title="4 Offices Across Greater LA"
         subtitle="Walk in, call ahead, or book online. Every location is staffed with CTEC-certified, bilingual preparers."
       />
 
       <section className="py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-6">
           {locationList.map((loc) => (
             <div
               key={loc.slug}

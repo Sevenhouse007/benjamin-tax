@@ -12,7 +12,7 @@ export default function CTASection() {
             Ready to file?
           </h3>
           <p className="text-[13px] text-charcoal/70 font-instrument mt-3">
-            Book a free appointment at any of our 5 LA locations, or start
+            Book a free appointment at any of our 4 LA locations, or start
             online from home. Same-day fast cash advance available.
           </p>
           <CalendlyButton className={buttonClasses({ variant: "gold", size: "md", className: "mt-5" })}>
