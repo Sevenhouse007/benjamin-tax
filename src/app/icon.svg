@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- =========================================================
+     BENJAMIN TAX SERVICE — Leaf Fan Mark
+     Canonical vector source  ·  Version 1.1
+     
+     Coordinate system
+       Canvas   : 500 × 500 px
+       Anchor   : (250, 450) — base of all leaves
+       
+     Colour palette
+       Sage     #4A8C5C   leaf 1 (back-left)
+       Hunter   #2A5C3F   leaf 2 (centre)
+       Gold     #D4A847   leaf 3 (front-right)
+       Anchor   #1A3A28   anchor dot
+       
+     Leaf measurements (from anchor to tip)
+       Sage     height 400 px   angle -21.6° left of vertical
+       Hunter   height 424 px   angle -6.2° left of vertical
+       Gold     height 422 px   angle 14.9° right of vertical
+       
+     Usage
+       Scale uniformly from the anchor point.
+       Minimum reproduction size: 32 × 32 px
+       Do NOT distort, rotate, or recolour individual leaves.
+     ========================================================= -->
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 500 500"
+     width="500" height="500">
+
+  <title>Benjamin Tax Service — Leaf Fan Mark</title>
+  <desc>Canonical leaf fan logo mark. Anchor at (250,450).</desc>
+
+  <!-- Leaf 1 · Sage #4A8C5C · back-left -->
+  <path id="leaf-sage"
+        d="M 250,450 C 192,400 72,265 92,50 C 116,208 188,336 250,450 Z"
+        fill="#4A8C5C"/>
+
+  <!-- Leaf 2 · Hunter Green #2A5C3F · centre -->
+  <path id="leaf-hunter"
+        d="M 250,450 C 222,374 172,224 204,26 C 238,218 262,368 250,450 Z"
+        fill="#2A5C3F"/>
+
+  <!-- Leaf 3 · Harvest Gold #D4A847 · front-right -->
+  <path id="leaf-gold"
+        d="M 250,450 C 262,368 298,216 362,28 C 350,212 310,358 250,450 Z"
+        fill="#D4A847"/>
+
+  <!-- Anchor dot -->
+  <circle id="anchor" cx="250" cy="450" r="5" fill="#1A3A28"/>
+
+</svg>
