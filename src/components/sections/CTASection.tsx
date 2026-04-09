@@ -1,5 +1,4 @@
 import { Upload, Users } from "lucide-react";
-import CalendlyButton from "../CalendlyButton";
 import { buttonClasses } from "../ui/Button";
 
 export default function CTASection() {
@@ -15,9 +14,12 @@ export default function CTASection() {
             Book a free appointment at any of our 4 LA locations, or start
             online from home. Same-day fast cash advance available.
           </p>
-          <CalendlyButton className={buttonClasses({ variant: "gold", size: "md", className: "mt-5" })}>
+          <a
+            href="/book"
+            className={buttonClasses({ variant: "gold", size: "md", className: "mt-5" })}
+          >
             Book Free Appointment →
-          </CalendlyButton>
+          </a>
         </div>
 
         <div className="border border-sage rounded-2xl bg-white p-8">

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
-import CalendlyButton from "@/components/CalendlyButton";
 import { buttonClasses } from "@/components/ui/Button";
 
 export const metadata: Metadata = {
@@ -47,9 +46,9 @@ export default function EspanolPage() {
 
       <section className="py-12 text-center">
         <div className="max-w-3xl mx-auto px-4 flex flex-wrap justify-center gap-3">
-          <CalendlyButton className={buttonClasses({ variant: "gold", size: "md" })}>
+          <a href="/book" className={buttonClasses({ variant: "gold", size: "md" })}>
             Reservar Cita Gratis
-          </CalendlyButton>
+          </a>
           <a
             href="tel:+13239827929"
             className={buttonClasses({ variant: "outline", size: "md" })}

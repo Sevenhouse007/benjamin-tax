@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import { Disclosure } from "@headlessui/react";
 import { Menu, X, Phone } from "lucide-react";
 import { LogoHorizontal } from "./Logo";
-import CalendlyButton from "./CalendlyButton";
 import { buttonClasses } from "./ui/Button";
 import { PHONE_DISPLAY, PHONE_TEL } from "@/lib/constants";
 
@@ -68,9 +67,9 @@ export default function Nav() {
               >
                 Login
               </a>
-              <CalendlyButton className={buttonClasses({ variant: "gold", size: "sm" })}>
+              <a href="/book" className={buttonClasses({ variant: "gold", size: "sm" })}>
                 Book Appointment
-              </CalendlyButton>
+              </a>
             </div>
 
             <Disclosure.Button className="lg:hidden p-2 text-hunter focus-visible:ring-2 focus-visible:ring-gold rounded">
@@ -104,9 +103,9 @@ export default function Nav() {
               >
                 Login
               </a>
-              <CalendlyButton className={buttonClasses({ variant: "gold", size: "sm", className: "w-full" })}>
+              <a href="/book" className={buttonClasses({ variant: "gold", size: "sm", className: "w-full" })}>
                 Book Appointment
-              </CalendlyButton>
+              </a>
             </div>
           </Disclosure.Panel>
         </>

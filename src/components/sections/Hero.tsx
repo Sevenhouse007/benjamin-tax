@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import CalendlyButton from "../CalendlyButton";
 import Dropzone from "../Dropzone";
 import { buttonClasses } from "../ui/Button";
 
@@ -48,9 +47,9 @@ export default function Hero() {
             ))}
           </div>
           <div className="mt-7 flex flex-wrap gap-3">
-            <CalendlyButton className={buttonClasses({ variant: "gold", size: "md" })}>
+            <a href="/book" className={buttonClasses({ variant: "gold", size: "md" })}>
               Book Free Consultation
-            </CalendlyButton>
+            </a>
             <a
               href={process.env.NEXT_PUBLIC_PORTAL_URL || "#"}
               className={buttonClasses({ variant: "outline", size: "md" })}
@@ -70,7 +69,7 @@ export default function Hero() {
             Your estimated refund
           </p>
           <p className="font-crimson text-gold text-[48px] leading-none mt-1 font-bold">
-            $3,240
+            $4,070
           </p>
           <p className="text-[12px] text-charcoal/60 font-instrument mt-1">
             Based on W-2 + 1099 income
@@ -80,7 +79,7 @@ export default function Hero() {
             <div>
               <div className="flex justify-between text-[12px] font-instrument text-charcoal/70 mb-1">
                 <span>Federal</span>
-                <span>$2,410</span>
+                <span>$3,240</span>
               </div>
               <div className="h-2 bg-cream rounded-full overflow-hidden">
                 <div className="h-full bg-gold" style={{ width: "75%" }} />

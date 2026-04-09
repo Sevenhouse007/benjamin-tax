@@ -5,6 +5,7 @@ export type Location = {
   phone: string;
   hours: string;
   neighborhood: string;
+  managerEmail: string;
 };
 
 export const locationList: Location[] = [
@@ -15,6 +16,7 @@ export const locationList: Location[] = [
     phone: "(323) 892-2520",
     hours: "Mon–Fri 9am–6pm · Sat 10am–4pm",
     neighborhood: "Los Angeles",
+    managerEmail: "teddy@benjamintaxes.com",
   },
   {
     slug: "mlk-103rd",
@@ -23,6 +25,7 @@ export const locationList: Location[] = [
     phone: "(323) 892-0205",
     hours: "Mon–Fri 9am–6pm · Sat 10am–4pm",
     neighborhood: "Watts",
+    managerEmail: "teddy@benjamintaxes.com",
   },
   {
     slug: "gage",
@@ -31,6 +34,7 @@ export const locationList: Location[] = [
     phone: "(323) 982-7929",
     hours: "Mon–Fri 9am–6pm · Sat 10am–4pm",
     neighborhood: "South LA",
+    managerEmail: "Sammy@benjamintaxes.com",
   },
   {
     slug: "long-beach",
@@ -39,5 +43,6 @@ export const locationList: Location[] = [
     phone: "(562) 242-0165",
     hours: "Mon–Fri 9am–6pm · Sat 10am–4pm",
     neighborhood: "Long Beach",
+    managerEmail: "Yonas@benjamintaxes.com",
   },
 ];
