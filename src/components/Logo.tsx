@@ -44,7 +44,7 @@ const ImgLogo = ({
 
 export const LogoHorizontal: React.FC<Props> = ({ className }) => (
   <ImgLogo
-    src="/logos/BTS_logo_horizontal_white2.png"
+    src="/logos/BTS_h_white.png"
     alt="Benjamin Tax Service"
     className={className}
   />
@@ -68,7 +68,7 @@ export const LogoStacked: React.FC<Props> = ({ className = "h-24" }) => (
 
 export const LogoWhite: React.FC<Props> = ({ className }) => (
   <ImgLogo
-    src="/logos/BTS_logo_footer_green_horizontal.png"
+    src="/logos/BTS_h_green.png"
     alt="Benjamin Tax Service"
     className={className}
   />
