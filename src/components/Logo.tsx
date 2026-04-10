@@ -38,13 +38,15 @@ const ImgLogo = ({
     width={1600}
     height={600}
     priority
+    quality={100}
+    unoptimized
     className={`${className} w-auto`}
   />
 );
 
 export const LogoHorizontal: React.FC<Props> = ({ className }) => (
   <ImgLogo
-    src="/logos/BTS_horizontal_white.png"
+    src="/logos/BTS_horizontal_white.svg"
     alt="Benjamin Tax Service"
     className={className}
   />
